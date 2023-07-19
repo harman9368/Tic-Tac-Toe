@@ -28,7 +28,7 @@ const handleClick = (e) => {
             disableCells();
         }else if(checkTie()){
             //console.log(`It's is Tie`);
-            showAlert(`It's is Tie`);
+            alert(`It's is Tie`);
             disableCells();
         }else{
             changePlayerTurn();
